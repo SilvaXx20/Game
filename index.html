@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>LAST SIGNAL V0.1</title>
+<meta name="theme-color" content="#05070a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div id="err"></div><div id="hud"><span id="fl">◉ LANTERNA</span> <span id="fps"></span></div>
+<div class="z" id="zl"></div><div class="z" id="zr"></div><div id="jb"><div id="jk"></div></div>
+<div id="pr"></div><div id="sub"></div>
+<button id="bUse">INTERAGIR</button><button id="bLight">LANTERNA</button><button id="bRun">CORRER</button>
+<button id="bRadio">RÁDIO</button><button id="bNotes">NOTAS</button>
+<div class="pn" id="doc"><h3 id="dt"></h3><div id="dx"></div><button id="dc">Fechar</button></div>
+<div class="pn" id="rad"><div style="font-size:12px;opacity:.7">RÁDIO PORTÁTIL — FM</div><div id="fr">100.0</div><input type="range" id="sl" min="880" max="1080" value="1000"><div id="mt"><div id="mb"></div></div><button id="rc">Fechar</button></div>
+<div id="st"><h1>LAST SIGNAL</h1><p>V0.1 — Estrada para Blackwood</p><p>Use fones de ouvido. Gire o celular para a horizontal.</p><button id="go">Iniciar</button><button id="nw" style="display:none">Novo jogo</button><p id="ld">Carregando…</p></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="scripts/game.js"></script>
+<script src="scripts/pwa.js"></script>
+</body></html>
